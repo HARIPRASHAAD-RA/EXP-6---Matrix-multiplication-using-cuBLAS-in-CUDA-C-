@@ -206,6 +206,20 @@ with open("matrix_multiplication.cu", "w") as f:
 # OUTPUT:
 
 <img width="504" height="290" alt="image" src="https://github.com/user-attachments/assets/bfd4b0ca-470b-42c5-9321-624bc15c4440" />
+Running matrix multiplication for size: 256 x 256
+CPU Matrix Multiplication Time: 0.038317 seconds
+GPU Matrix Multiplication Time (cuBLAS): 15.220480 ms
+Results verified successfully for 256 x 256
+
+Running matrix multiplication for size: 512 x 512
+CPU Matrix Multiplication Time: 0.314576 seconds
+GPU Matrix Multiplication Time (cuBLAS): 0.241568 ms
+Results verified successfully for 512 x 512
+
+Running matrix multiplication for size: 1024 x 1024
+CPU Matrix Multiplication Time: 3.419060 seconds
+GPU Matrix Multiplication Time (cuBLAS): 1.739520 ms
+Results verified successfully for 1024 x 1024
 
 
 # RESULT:
